@@ -1,8 +1,10 @@
 # Build the static site
 FROM node:22-alpine AS build
-WORKDIR /app
+# here we set the working directory to /app, so all subsequent commands will be run from this directory
+WORKDIR /app 
 COPY package.json package-lock.json ./
 RUN npm ci
+#
 COPY . .
 RUN npm run build
 
