@@ -8,7 +8,7 @@ export const CONFIG = {
   // 2–4 hex colors. The background will drift smoothly between them.
   // Visit https://coolors.co/palettes/trending for colors!
   // Colors must start with #
-  gradientColors: ["#10039a", "#9324fb", "#14d5e3"],
+  gradientColors: ["#10039a", "#9324fb", "#10abb6"],
 
   // Your name (or nickname) as a plain string. Shows on the badge and sets
   // the initials in the avatar circle.
